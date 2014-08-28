@@ -1,0 +1,14 @@
+digraph possibilidades_rst {
+  labelloc="t";
+  label="Possibilidades de formatos de documentos gerados\na partir de Texto Restruturado (RestructuredText)";
+  rankdir = LR;
+  rst [label="RestructuredText"];
+  rst -> "PDF" [label="Via *rst2pdf*"];
+  rst -> "Latex" [label="Via *python-shinx*"];
+  rst -> "HTML" [label="Via *python-shinx* ou *rst2html*"];
+  rst -> "HTML Help\n(Ajuda do Windows)" ;
+  rst -> "Apresentação";
+  rst -> "Man Pages\n(Páginas de manual do Unix)";
+  rst -> "Epub\n(Livro eletrônico)";
+  rst -> "ODT\n(Formato de documento do OpenOffice)";
+}
