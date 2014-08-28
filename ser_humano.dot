@@ -1,0 +1,5 @@
+graph ser_humano {
+  labelloc="t";
+  label = "Ser Humano para os Terapeutas Ocupacionais"  ;
+  Trabalho -- "Autocuidado" -- Lazer -- Trabalho;
+}
