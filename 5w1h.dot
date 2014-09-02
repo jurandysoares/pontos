@@ -1,0 +1,8 @@
+digraph 5w1h {
+    Problem -- What;
+    Problem -- Where;
+    Problem -- When;
+    Problem -- Who;
+    Problem -- Why;
+    Problem -- How;
+}
