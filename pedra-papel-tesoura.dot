@@ -1,0 +1,5 @@
+digraph pedra_papel_tesoura {
+  papel -> pedra [label="ganha de"];
+  pedra -> tesoura [label="ganha de"];
+  tesoura -> papel [label="ganha de"];
+}
