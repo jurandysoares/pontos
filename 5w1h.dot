@@ -1,6 +1,6 @@
 digraph 5w1h {
     labelloc = "t";
-    label="Metodologia de Problema 5W-1H";
+    label="Metodologia de Solução de Problemas 5W-1H";
     Problem -- What;
     Problem -- Where;
     Problem -- When;
